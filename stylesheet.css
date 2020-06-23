@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 14px;
+    font-family: verdana;
+}
+badan-utama{
+		    max-width: 1080px;
+		    margin: 15px auto;
+		    background-color: white;
+		    padding: 15px;
+		    overflow: hidden;
+}
+header {
+		    background-color: crimson;
+		    color: white;
+		    padding: 13px;
+}
+.logo {
+  width: 124px;
+	height: 65px;
+  margin-top: 0px;
+	float: left;
+}
+
+#heading{
+    float: left;
+    width: 640px;
+}
+#heading a {
+    line-height: 70px;
+    text-decoration: none;
+    padding-left: 60px;
+    color:#FFF;
+    font-family: aardvark cafe;
+    font-size: 40px;
+}
+
+#menu {
+    background:#26C4C2;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+		position: absolute;
+		transition: all 0.5s;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    float: left;
+    line-height: 65px
+}
+#menu ul li a {
+    float:left;
+    width:140px;
+    display:block;
+    text-align:center;
+    color:#FFF;
+    text-decoration:none;
+}
+#menu ul ul {
+    display:none;
+    list-style:none;
+    position:absolute;
+    background-color:#26C4C2;
+    float: none;
+    top:65px;
+    width:190px;
+}
+#menu ul li a:hover {
+    background-color:#2E9EA2;
+    display:block;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu ul ul li a {
+    display:block;
+    padding-left:30px;
+    text-align:left;
+    width:160px;
+    height: 60px;
+    line-height: 60px;
+}
+#menu ul ul li a:hover {
+    color:#fff;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("angkringan.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.kotak {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+		margin-top: 5px;
+}
+
+.kotak h2{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kotak p
+{
+    margin-bottom: 10px;
+}
+
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+
+.tombol-pesan {
+    background-color: green;
+}
+
+footer {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.footer-distributed{
+	background-color: crimson;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 8px 10px;
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+.footer-icons {
+  font-size: 25px
+}
