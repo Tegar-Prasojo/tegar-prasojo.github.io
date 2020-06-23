@@ -1,0 +1,72 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+.badan-utama{
+    width: 100%;
+}
+  .menu-kiri {
+  width: 25%;
+}
+
+#menu ul li a{
+ display: none;
+ width: 100%;
+
+ }
+
+.footer-distributed{
+  font: bold 14px sans-serif;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer-distributed .footer-center i{
+	margin-left: 0;
+}
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+header h2, header p {
+text-align: center;
+}
+
+
+.menu-kiri {
+float: none;
+width: 100%;
+}
+
+#menu ul a {
+	padding:15px;
+	font-size: 14px;
+	}
+#menu ul li a{
+  display: none;
+ }
+
+table {
+  border: 0;
+}
+
+table tr {
+  border-bottom: 3px solid green;
+  display: block;
+  margin-bottom: .725em;
+  text-align: right;
+}
+table td {
+  border-bottom: 1px solid green;
+  display: block;
+  font-size: .8em;
+  text-align: right;
+}
+}
