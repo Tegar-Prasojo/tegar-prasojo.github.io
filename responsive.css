@@ -13,7 +13,23 @@
  width: 100%;
 
  }
+table {
+  border: 0;
+}
 
+table tr {
+  border-bottom: 3px solid green;
+  display: block;
+  margin-bottom: .725em;
+  text-align: right;
+}
+table td {
+  border-bottom: 1px solid green;
+  display: block;
+  font-size: .8em;
+  text-align: right;
+}
+	
 .footer-distributed{
   font: bold 14px sans-serif;
 }
